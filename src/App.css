@@ -1,42 +1,189 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /* background-image: url("assets/bg1.jpg"); */
+  background-image: linear-gradient(
+      35deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("assets/bg1.jpg");
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 32.2dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #eff3fc;
+  box-shadow: 0 5px 50px #88662770;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (320px <= width <= 480px) {
+  .container .poster {
+    width: 100dvw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (481px <= width <= 767px) {
+}
+
+@media (768px <= width <= 1023px) {
+}
+
+@media (1024px <= width <= 1199px) {
+}
+
+@media (1200px <= width <= 1919px) {
+}
+
+@media (1920px <= width <= 2660px) {
+  .container .principal-container {
+    min-height: 100dvh;
+    height: 100dvh;
+    margin-bottom: 50px;
+  }
+
+  .container .poster {
+    height: 100dvh;
+  }
+
+  .container .poster-gift {
+    position: relative;
+    top: -150px;
+    z-index: 1;
+  }
+
+  .container .date-container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .container .date-container h1 {
+    color: #2f3e5f;
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+  }
+
+  .date-container .date-container .final-countdown h2 {
+    margin: 20px 0;
+  }
+
+  .container .date-container img {
+    width: 100%;
+  }
+
+  .container .date-container h2 {
+    color: #2f3e5f;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .container .date-container .data-church {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .container .date-container .data-church p:nth-child(3) {
+    width: 80%;
+    color: #82a0ab;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .container .date-container .data-church p:nth-child(2) {
+    width: 80%;
+    color: #82a0ab;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container .date-container .data-church p:nth-child(4) {
+    color: #2f3e5f;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .container .date-container .church {
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5); */
+  }
+
+  .container .date-container a {
+    padding: 10px 35px;
+    margin: 30px 0 100px 0;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .date-container a .map-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+/*
 
-.card {
-  padding: 2em;
-}
+#2f3e5f azul fuerte
+#e2e5ea gris claro
+#82a0ab damas de honor
+#f1eae0 beige
 
-.read-the-docs {
-  color: #888;
-}
+
+
+*/
