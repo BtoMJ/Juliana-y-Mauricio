@@ -1,12 +1,20 @@
+import flowers from "./assets/flores.png";
+import poster from "./assets/Poster.png";
 import "./App.css";
-import Principal from "./components/Principal/Principal";
-import Second from "./components/Second/Second";
 
 function App() {
   return (
     <div className="container">
-      <Principal />
-      <Second />
+      <div className="info">
+        <>
+          <img src={flowers} className="top-img" />
+          <img src={poster} className="poster" />
+          <p className="names">Juliana & Mauricio</p>
+          <p className="title-names">¡NOS CASAMOS!</p>
+          <p className="date-names">03 ENE 2026</p>
+        </>
+        <></>
+      </div>
     </div>
   );
 }
