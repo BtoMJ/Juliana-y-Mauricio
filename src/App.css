@@ -133,6 +133,90 @@ a {
     font-weight: 600;
     z-index: 3;
   }
+
+  .date-container {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .date-container img {
+    width: 90dvw;
+  }
+
+  .date-container .data-church {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-container .data-church h2 {
+    font-size: 3.5rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+  }
+
+  .date-container .data-church p {
+    font-size: 1.2rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+
+  .date-container .data-church .time,
+  .date-container .data-church .direction {
+    width: 80%;
+    font-size: 1.2rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .date-container .data-church a {
+    width: 90dvw;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .date-container .data-church a .map-icon {
+    margin-right: 10px;
+  }
+
+  .date-container .data-church:nth-child(5),
+  .date-container .data-church:nth-child(4) {
+    margin-top: 50px;
+  }
+
+  .date-container .data-church .parients {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-bottom: 30px;
+  }
+
+  .date-container .data-church .parients h3 {
+    text-align: center;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(6) {
+    margin-top: -20px;
+  }
 }
 
 @media (481px <= width <= 767px) {
