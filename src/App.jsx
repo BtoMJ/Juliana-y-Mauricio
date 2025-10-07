@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setParticles(70);
-    }, 1500);
+    }, 1000);
 
     const timer = setTimeout(() => {
       setParticles(0);
