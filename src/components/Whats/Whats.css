@@ -1,11 +1,12 @@
-.gif-container {
+.confirm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom: 70px;
 }
 
-.gif-container h2 {
+.confirm h2 {
   font-size: 3.5rem;
   color: #b38d0b;
   font-family: "The Nautigal", cursive;
@@ -13,7 +14,7 @@
   margin-bottom: -15px;
 }
 
-.gif-container p {
+.confirm p {
   width: 90%;
   font-size: 1.2rem;
   color: #8d8d8d;
@@ -22,7 +23,7 @@
   text-align: center;
 }
 
-.gif-container a {
+.confirm a {
   width: 90dvw;
   padding: 10px;
   text-align: center;
@@ -35,6 +36,7 @@
   justify-content: center;
 }
 
-.gif-container a .gift-icon {
+.confirm a .confirm-icon {
   margin-right: 10px;
+  font-size: 1.2rem;
 }

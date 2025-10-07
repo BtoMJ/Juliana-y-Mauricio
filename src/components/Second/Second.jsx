@@ -1,6 +1,7 @@
 import photo from "../../assets/foto2.png";
 import church from "../../assets/templo.webp";
 import salon from "../../assets/arcadia.webp";
+import Countdown from "../Countdown/Countdown";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { RiCrossFill } from "react-icons/ri";
 
@@ -9,7 +10,11 @@ function Second() {
     <section className="date-container">
       <>
         <div className="final-countdown">
-          <h2>95 : 15 : 51</h2>
+          <Countdown />
+          <p className="cita-countdown">
+            Dos almas, un destino… acompáñanos a celebrar el inicio de nuestra
+            historia juntos.
+          </p>
         </div>
 
         <img src={photo} alt="foto acostados" />
