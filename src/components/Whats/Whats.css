@@ -60,6 +60,39 @@
   }
 }
 
+@media (1920px <= width <= 2660px) {
+  .confirm h2 {
+    font-size: 5.5rem;
+  }
+
+  .confirm p {
+    width: 90%;
+    font-size: 1.7rem;
+  }
+
+  .confirm a {
+    width: 35dvw;
+    font-size: 1.2rem;
+  }
+}
+
+@media (2661px <= width) {
+  .confirm h2 {
+    font-size: 7.5rem;
+  }
+
+  .confirm p {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+
+  .confirm a {
+    width: 30dvw;
+    font-size: 2rem;
+    padding: 20px !important;
+  }
+}
+
 .confirm {
   display: flex;
   flex-direction: column;

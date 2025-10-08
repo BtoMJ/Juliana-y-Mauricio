@@ -171,3 +171,91 @@
     margin-right: 10px;
   }
 }
+
+@media (1920px <= width <= 2660px) {
+  .gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .gif-container h2 {
+    font-size: 5.5rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+  }
+
+  .gif-container p {
+    width: 90%;
+    font-size: 1.7rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .gif-container a {
+    width: 35dvw;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .gif-container a .gift-icon {
+    margin-right: 10px;
+  }
+}
+
+@media (2661px <= width) {
+  .gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .gif-container h2 {
+    font-size: 7.5rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+  }
+
+  .gif-container p {
+    width: 90%;
+    font-size: 2.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .gif-container a {
+    width: 30dvw;
+    padding: 20px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .gif-container a .gift-icon {
+    margin-right: 10px;
+  }
+}
