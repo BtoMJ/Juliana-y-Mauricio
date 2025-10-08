@@ -1,3 +1,65 @@
+@media (320px <= width <= 480px) {
+  .confirm h2 {
+    font-size: 3.5rem;
+  }
+
+  .confirm p {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  .confirm a {
+    width: 90dvw;
+  }
+}
+
+@media (768px <= width <= 1023px) {
+  .confirm h2 {
+    font-size: 4.1rem;
+  }
+
+  .confirm p {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  .confirm a {
+    width: 70dvw;
+  }
+}
+
+@media (1024px <= width <= 1199px) {
+  .confirm h2 {
+    font-size: 4.1rem;
+  }
+
+  .confirm p {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  .confirm a {
+    width: 60dvw;
+    font-size: 1.2rem;
+  }
+}
+
+@media (1200px <= width <= 1919px) {
+  .confirm h2 {
+    font-size: 4.1rem;
+  }
+
+  .confirm p {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
+  .confirm a {
+    width: 35dvw;
+    font-size: 1.2rem;
+  }
+}
+
 .confirm {
   display: flex;
   flex-direction: column;
@@ -7,7 +69,6 @@
 }
 
 .confirm h2 {
-  font-size: 3.5rem;
   color: #b38d0b;
   font-family: "The Nautigal", cursive;
   font-weight: bold;
@@ -15,8 +76,6 @@
 }
 
 .confirm p {
-  width: 90%;
-  font-size: 1.2rem;
   color: #8d8d8d;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -24,7 +83,6 @@
 }
 
 .confirm a {
-  width: 90dvw;
   padding: 10px;
   text-align: center;
   background-color: #2f3e5f;

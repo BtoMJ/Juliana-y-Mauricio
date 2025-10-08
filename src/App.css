@@ -77,8 +77,6 @@ a {
     top: 5px;
     margin-bottom: -70px;
     z-index: 1;
-    /* border: 3px solid #fff;
-    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5); */
   }
 
   .container .info .names {
@@ -225,12 +223,498 @@ a {
 }
 
 @media (768px <= width <= 1023px) {
+  .container .info {
+    width: 65dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .container .info .top-img {
+    width: 90%;
+    z-index: 2;
+  }
+
+  .container .info .poster {
+    width: 65dvw;
+    position: relative;
+    top: 5px;
+    margin-bottom: -50px;
+    z-index: 1;
+  }
+
+  .container .info .names {
+    font-size: 4.1rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -10px;
+    z-index: 3;
+  }
+
+  .container .info .title-names {
+    font-size: 2rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: -5px;
+    z-index: 3;
+  }
+
+  .container .info .date-names {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    z-index: 3;
+  }
+
+  .date-container {
+    width: 65dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .container .info .date-container .final-countdown .cita-countdown {
+    width: 90%;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .date-container img {
+    width: 70dvw;
+  }
+
+  .date-container .data-church {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-container .data-church .title-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-container .data-church .title-img-container .img-title {
+    width: 50px;
+    margin-top: 20px;
+  }
+
+  .date-container .data-church h2 {
+    font-size: 4.1rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .date-container .data-church p {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+
+  .date-container .data-church .time,
+  .date-container .data-church .direction {
+    width: 70%;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .date-container .data-church a {
+    width: 70dvw;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-container .data-church a .map-icon {
+    margin-right: 10px;
+  }
+
+  .date-container .data-church:nth-child(5),
+  .date-container .data-church:nth-child(4) {
+    margin-top: 50px;
+  }
+
+  .date-container .data-church .parients {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-bottom: 30px;
+  }
+
+  .date-container .data-church .parients h3 {
+    color: #8d8d8d;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(6) {
+    margin-top: -20px;
+  }
 }
 
 @media (1024px <= width <= 1199px) {
+  .container .info {
+    width: 60dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .container .info .top-img {
+    width: 90%;
+    z-index: 2;
+  }
+
+  .container .info .poster {
+    width: 60dvw;
+    position: relative;
+    top: 5px;
+    margin-bottom: -50px;
+    z-index: 1;
+  }
+
+  .container .info .names {
+    font-size: 4.1rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -10px;
+    z-index: 3;
+  }
+
+  .container .info .title-names {
+    font-size: 2rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: -5px;
+    z-index: 3;
+  }
+
+  .container .info .date-names {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    z-index: 3;
+  }
+
+  .date-container {
+    width: 60dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .container .info .date-container .final-countdown .cita-countdown {
+    width: 90%;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .date-container img {
+    width: 60dvw;
+  }
+
+  .date-container .data-church {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-container .data-church .title-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-container .data-church .title-img-container .img-title {
+    width: 50px;
+    margin-top: 20px;
+  }
+
+  .date-container .data-church h2 {
+    font-size: 4.1rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .date-container .data-church p {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+
+  .date-container .data-church .time,
+  .date-container .data-church .direction {
+    width: 70%;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .date-container .data-church a {
+    width: 60dvw;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .date-container .data-church a .map-icon {
+    margin-right: 10px;
+  }
+
+  .date-container .data-church:nth-child(5),
+  .date-container .data-church:nth-child(4) {
+    margin-top: 50px;
+  }
+
+  .date-container .data-church .parients {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-bottom: 30px;
+  }
+
+  .date-container .data-church .parients h3 {
+    color: #8d8d8d;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(6) {
+    margin-top: -20px;
+  }
 }
 
 @media (1200px <= width <= 1919px) {
+  .container .info {
+    width: 35dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .container .info .top-img {
+    width: 90%;
+    z-index: 2;
+  }
+
+  .container .info .poster {
+    width: 35dvw;
+    position: relative;
+    top: 5px;
+    margin-bottom: -50px;
+    z-index: 1;
+  }
+
+  .container .info .names {
+    font-size: 4.1rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -10px;
+    z-index: 3;
+  }
+
+  .container .info .title-names {
+    font-size: 2rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: -5px;
+    z-index: 3;
+  }
+
+  .container .info .date-names {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    z-index: 3;
+  }
+
+  .date-container {
+    width: 35dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .container .info .date-container .final-countdown .cita-countdown {
+    width: 90%;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .date-container img {
+    width: 35dvw;
+  }
+
+  .date-container .data-church {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-container .data-church .title-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-container .data-church .title-img-container .img-title {
+    width: 50px;
+    margin-top: 20px;
+  }
+
+  .date-container .data-church h2 {
+    font-size: 4rem;
+    color: #b38d0b;
+    font-family: "The Nautigal", cursive;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .date-container .data-church p,
+  .date-container .data-church .title-names {
+    font-size: 1.5rem;
+    color: #2f3e5f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+
+  .date-container .data-church .time,
+  .date-container .data-church .direction {
+    width: 80%;
+    font-size: 1.2rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .date-container .data-church a {
+    width: 35dvw;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3e5f;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .date-container .data-church a .map-icon {
+    margin-right: 10px;
+  }
+
+  .date-container .data-church:nth-child(5),
+  .date-container .data-church:nth-child(4) {
+    margin-top: 50px;
+  }
+
+  .date-container .data-church .parients {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-bottom: 30px;
+  }
+
+  .date-container .data-church .parients h3 {
+    color: #8d8d8d;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .date-container .data-church:nth-child(5) p:nth-child(6) {
+    margin-top: -20px;
+  }
 }
 
 @media (1920px <= width <= 2660px) {
@@ -319,7 +803,6 @@ a {
     width: 90%;
     margin-top: 30px;
     border-radius: 5px;
-    /* box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5); */
   }
 
   .container .date-container a {
