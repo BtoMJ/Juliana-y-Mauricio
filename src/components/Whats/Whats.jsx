@@ -16,7 +16,7 @@ function Whats() {
         asistencia.
       </p>
       <a
-        href="https://wa.me/524761037311?text=%C2%A1Hola!%20%F0%9F%A4%8D%20Quiero%20confirmar%20mi%20asistencia%20a%20la%20Boda%20de%20Juliana%20%26%20Mauricio%20%F0%9F%91%B0%F0%9F%8F%BB%F0%9F%A4%B5%F0%9F%8F%BB"
+        href="https://wa.me/524771078319?text=%C2%A1Hola!%20%F0%9F%A4%8D%20Quiero%20confirmar%20mi%20asistencia%20a%20la%20Boda%20de%20Juliana%20%26%20Mauricio%20%F0%9F%91%B0%F0%9F%8F%BB%F0%9F%A4%B5%F0%9F%8F%BB"
         target="_blank"
         rel="noopener"
         aria-label="Confirmar Asistencia por WhatsApp"
