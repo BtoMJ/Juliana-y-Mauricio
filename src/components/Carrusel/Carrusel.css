@@ -32,6 +32,40 @@
   }
 }
 
+@media (481px <= width <= 767px) and (orientation: landscape) {
+  .carrusel-container {
+    width: 70dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slide-container-1,
+  .slide-container-2,
+  .slide-container-3,
+  .slide-container-4,
+  .slide-container-5 {
+    width: 70dvw;
+    height: 700px;
+    background-size: cover;
+  }
+
+  .carousel-fade {
+    width: 90dvw;
+    min-height: 700px;
+  }
+
+  .cita {
+    width: 70dvw;
+    font-size: 1.5rem;
+    color: #8d8d8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
 @media (768px <= width <= 1023px) {
   .carrusel-container {
     width: 70dvw;

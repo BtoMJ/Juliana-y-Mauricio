@@ -13,6 +13,21 @@
   }
 }
 
+@media (481px <= width <= 767px) and (orientation: landscape) {
+  .confirm h2 {
+    font-size: 4.5rem;
+  }
+
+  .confirm p {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  .confirm a {
+    width: 70dvw;
+  }
+}
+
 @media (768px <= width <= 1023px) {
   .confirm h2 {
     font-size: 4.1rem;
