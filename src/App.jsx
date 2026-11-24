@@ -46,7 +46,8 @@ function App() {
           <img src={poster} className="poster" />
           <p className="names">Juliana & Mauricio</p>
           <p className="title-names">¡NOS CASAMOS!</p>
-          <p className="date-names">03 ENE 2026</p>
+          {/* <p className="date-names">03 ENE 2026</p> */}
+          <p className="date-names">03 FEB 2027</p>
         </>
         <Second />
         <Third />
